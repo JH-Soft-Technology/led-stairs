@@ -22,6 +22,8 @@ You will need these things to build this project
 - 3 pin terminal [KF301-3P](https://www.aliexpress.com/item/10PCS-LOT-KF301-3P-250A-160V-Screw-3Pin-5-08mm-Straight-Pin-PCB-Screw-Terminal-Block/32691503188.html?spm=2114.search0104.3.22.3f818a59LeIPvy&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=5bf8a851-3af4-4ada-bb6d-fa87ae9e59a2-3&algo_pvid=5bf8a851-3af4-4ada-bb6d-fa87ae9e59a2&transAbTest=ae803_5)
 - 3 pin [JST 1.25mm](https://www.aliexpress.com/item/50pcs-MICRO-JST-Connector-1-25MM-Pitch-pin-header-2P-3P-4P-5P-6P-7P-8P/32961123150.html?spm=2114.search0104.3.23.640e7611EvbVeK&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=9013d55a-98b5-432a-9bcf-bb84c076dc6d-3&algo_pvid=9013d55a-98b5-432a-9bcf-bb84c076dc6d&transAbTest=ae803_5)
 - PCB [spring terminal block](https://www.aliexpress.com/item/20PCS-Lot-141R-2-54-8P-8Pin-PCB-Spring-Terminal-Block-ROHS-connector-Pitch-2-54mm/32603594829.html?spm=a2g0s.9042311.0.0.27424c4d3v950r) with 8pin and pitch 2.54
+- [FTDI FT232RL](https://www.aliexpress.com/item/FT232RL-FTDI-USB-3-3V-5-5V-to-TTL-Serial-Adapter-Module-for-Arduino-Mini-Port/32279080531.html?spm=2114.search0104.3.178.2ad813devOa2Ft&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=45da325f-cf9f-4fde-8745-46b2906db7b1-25&algo_pvid=45da325f-cf9f-4fde-8745-46b2906db7b1&transAbTest=ae803_5) programmer
+- [Wires](https://www.aliexpress.com/item/Free-shipping-Dupont-line-120pcs-10cm-male-to-male-male-to-female-and-female-to-female/2041500641.html?spm=2114.search0104.3.3.208412505Yn61i&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=1c33c82a-5e96-4290-84a5-e9120151b2b5-0&algo_pvid=1c33c82a-5e96-4290-84a5-e9120151b2b5&transAbTest=ae803_5) with male or female pins
 
 ### Installing
 
@@ -35,51 +37,9 @@ Install one of these IDEs
 git clone https://github.com/jhoralek/giom-weather-station.git
 ```
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
@@ -87,20 +47,12 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [Git](https://git-scm.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- **Jiří Horálek** - _Initial work_ - [jhoralek](https://github.com/jhoralek)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
