@@ -37,10 +37,25 @@ Install one of these IDEs
 git clone https://github.com/jhoralek/giom-weather-station.git
 ```
 
-### Schematic and Board
+## Diagram and Board
 
 Schema of the cirucit is quite ease. We use 74HC595 shift register to control each led light separately.
 Because we use 12V led strips then we need some logic circuits to handle the currency for led strips.
+
+![Diagram](https://github.com/jhoralek/led-stairs/blob/master/images/schematic.png)
+
+1. These two spring terminals are feed with +12V wires from led strips
+2. These two spring terminals are feed with GND wires from led strips
+3. 74HC595 Shift registers
+4. Input from arduino
+5. Capacitor balancing +5V voltage used in shift register
+6. Is the same as pint 5.
+7. Capacitor which is balancing +5V from power supply
+8. Logic circuits to handle higher current then the 74HC595 can
+
+![Board](https://github.com/jhoralek/led-stairs/blob/master/images/board.png)
+
+Here you can see the result of the board. It is dobule layer. Red lines are on upper layer and Blue lines are on bottom layer.
 
 ## Deployment
 
