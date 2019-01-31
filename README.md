@@ -37,6 +37,11 @@ Install one of these IDEs
 git clone https://github.com/jhoralek/giom-weather-station.git
 ```
 
+### Schematic and Board
+
+Schema of the cirucit is quite ease. We use 74HC595 shift register to control each led light separately.
+Because we use 12V led strips then we need some logic circuits to handle the currency for led strips.
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
