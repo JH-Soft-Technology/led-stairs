@@ -24,6 +24,9 @@ You will need these things to build this project
 - PCB [spring terminal block](https://www.aliexpress.com/item/20PCS-Lot-141R-2-54-8P-8Pin-PCB-Spring-Terminal-Block-ROHS-connector-Pitch-2-54mm/32603594829.html?spm=a2g0s.9042311.0.0.27424c4d3v950r) with 8pin and pitch 2.54
 - [FTDI FT232RL](https://www.aliexpress.com/item/FT232RL-FTDI-USB-3-3V-5-5V-to-TTL-Serial-Adapter-Module-for-Arduino-Mini-Port/32279080531.html?spm=2114.search0104.3.178.2ad813devOa2Ft&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=45da325f-cf9f-4fde-8745-46b2906db7b1-25&algo_pvid=45da325f-cf9f-4fde-8745-46b2906db7b1&transAbTest=ae803_5) programmer
 - [Wires](https://www.aliexpress.com/item/Free-shipping-Dupont-line-120pcs-10cm-male-to-male-male-to-female-and-female-to-female/2041500641.html?spm=2114.search0104.3.3.208412505Yn61i&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10304_10307_10820_10821_537_10302_536_10902_10059_10884_10887_321_322_10103,searchweb201603_70,ppcSwitch_0&algo_expid=1c33c82a-5e96-4290-84a5-e9120151b2b5-0&algo_pvid=1c33c82a-5e96-4290-84a5-e9120151b2b5&transAbTest=ae803_5) with male or female pins
+- Soldering station
+- Solder
+- Motion sensors [HC-SR501](https://www.aliexpress.com/item/1pcs-High-Quality-HC-SR501-Infrared-PIR-Motion-Sensor-Module-For-Arduino-Raspberry-pi/2019422880.html?spm=a2g0s.9042311.0.0.27424c4d89PxUD)
 
 ### Installing
 
@@ -42,6 +45,8 @@ git clone https://github.com/jhoralek/giom-weather-station.git
 Schema of the cirucit is quite ease. We use 74HC595 shift register to control each led light separately.
 Because we use 12V led strips then we need some logic circuits to handle the currency for led strips.
 
+### Diagram
+
 ![Diagram](https://github.com/jhoralek/led-stairs/blob/master/images/schematic.png)
 
 1. These two spring terminals are feed with +12V wires from led strips
@@ -53,13 +58,28 @@ Because we use 12V led strips then we need some logic circuits to handle the cur
 7. Capacitor which is balancing +5V from power supply
 8. Logic circuits to handle higher current then the 74HC595 can
 
+### Board
+
 ![Board](https://github.com/jhoralek/led-stairs/blob/master/images/board.png)
 
 Here you can see the result of the board. It is dobule layer. Red lines are on upper layer and Blue lines are on bottom layer.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+At first you need to solder all component to the board like so
+
+![SolderedBoard](https://github.com/jhoralek/led-stairs/blob/master/images/solderedboard.jpg)
+
+## Upload the sketch
+
+- Open the sketch in your favorit IDE for arduino.
+- Connect Arduino Pro mini to the FTDI
+
+![WiredArduino](https://github.com/jhoralek/led-stairs/blob/master/images/arduino_wired_to_ftdi.jpg)
+
+## Wiring
+
+- comming soon
 
 ## Contributing
 
