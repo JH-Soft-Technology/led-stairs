@@ -79,7 +79,7 @@ At first you need to solder all component to the board like so
 
 ## Wiring
 
-- comming soon
+- At this moment the board has been updated but not yet PCB made. So we demonstrate wiring on old version of PCB.
 
 ## Contributing
 
