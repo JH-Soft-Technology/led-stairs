@@ -23,19 +23,19 @@ Board can be chained with up to 3 others. So maximal light management is 32 step
 
 It is double sided PCB board.
 
-![PCB](https://github.com/jhoralek/led-stairs/blob/master/images/board_with_no_smds.png)
+![PCB](https://github.com/jhoralek/led-stairs/blob/master/images/board_with_no_smds.jpg)
 
 Master front side of the board with chips.
 
-![PCBmasterFront](https://github.com/jhoralek/led-stairs/blob/master/images/master_front.png)
+![PCBmasterFront](https://github.com/jhoralek/led-stairs/blob/master/images/master_front.jpg)
 
 Master back side of the board with chips.
 
-![PCBmasterBack](https://github.com/jhoralek/led-stairs/blob/master/images/master_back.png)
+![PCBmasterBack](https://github.com/jhoralek/led-stairs/blob/master/images/master_back.jpg)
 
 Master nad slave boards chained together.
 
-![PCBmasterSlave](https://github.com/jhoralek/led-stairs/blob/master/images/master_slave_front.png)
+![PCBmasterSlave](https://github.com/jhoralek/led-stairs/blob/master/images/master_slave_front.jpg)
 
 ## How does it work
 
