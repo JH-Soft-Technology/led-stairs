@@ -40,7 +40,7 @@ Master nad slave boards chained together.
 ## How does it work
 
 This board is turning on each step by step depends from which side is someone goes. Each step is turn on with little delay so it has nice effect. You can put a 12V LED strips to each step or
-small light into the wall nex to the each step. It depends on witch stairs you have.
+small light into the wall next to the each step. It depends on witch stairs you have.
 
 In the feature, I'll put some video or moving picture in GIF format, how does it work.
 
