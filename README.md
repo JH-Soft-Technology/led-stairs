@@ -68,6 +68,11 @@ So you need to by powers supply with 12V voltage and at least 60 watts. 60 watts
 - Some 12V LED strips or lights at 12V.
 - Some case for microcontroller and power supply.
 
+## Visual
+
+![Up](https://github.com/jhoralek/led-stairs/blob/master/images/led-stairs-1.gif)
+![Down](https://github.com/jhoralek/led-stairs/blob/master/images/led-stairs-2.gif)
+
 ## Authors
 
 - **Jiří Horálek** - _Initial work_ - [jhoralek](https://github.com/jhoralek)
