@@ -64,7 +64,7 @@ So you need to by powers supply with 12V voltage and at least 60 watts. 60 watts
 ```
 
 - 2 PIR sensor like [HC-SR501](https://www.amazon.com/HC-SR501/s?k=HC-SR501)
-- A cable with thow wires init. A cable cross section of at least 0,25 mm to each.
+- A cable with two wires init. A cable cross section of at least 0,25 mm to each.
 - Some 12V LED strips or lights at 12V.
 - Some case for microcontroller and power supply.
 
